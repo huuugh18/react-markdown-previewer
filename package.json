@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://huuugh18.github.io/react-quote-machine/",
+  "homepage": "https://huuugh18.github.io/react-markdown-previewer/",
   "dependencies": {
     "@material-ui/core": "^3.8.1",
     "gh-pages": "^2.0.1",
