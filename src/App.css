@@ -1,13 +1,13 @@
 .App {
   /* text-align: center; */
   background-image: url('./images/background1.jpg');
-  
+  background-size: 100%;
   min-height: 100vh;
   display: grid;
   grid-template-areas: 
   ". title title title ."
   ". editor . markdown ."
-  ". . footer . .";
+  ". footer footer footer .";
   justify-items: center;
   align-items: flex-start;
   grid-template-columns: 1fr 2fr 100px 2fr 1fr;
@@ -36,7 +36,9 @@
   background-color: rgba(0,0,0,0.09);
   margin: 15px;
 }
-
+#footer{
+  grid-area: footer
+}
 .text-card-container{
   max-width: 600px;
   width: 600px;
